@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+@import url("https://fonts.googleapis.com/css?family=FiraSans");
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -9,17 +9,18 @@
   background: url("image/bg-header_2.jpg") center/cover repeat-x;
   min-height: 30rem;
   color: #fff;
-  padding-top: 3.5rem;
+  padding: 4.5rem 0;
   text-align: right;
 }
 .callUs__phone_big {
-  font-size: 3.5rem;
+  font-size: 3rem;
+  margin-bottom: 0;
 }
 .callUs__phone_min {
   padding-left: 1rem;
   margin: 0;
   line-height: 1rem;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 .basket {
   color: #fff;
@@ -118,6 +119,7 @@
   text-align: left;
 }
 .slogan__caption {
+  font-family: 'Fira Sans', sans-serif;
   color: #ff9600;
   font-size: 7rem;
   font-weight: bold;
@@ -142,6 +144,7 @@
   vertical-align: top;
 }
 .label__description {
+  font-weight: 100;
   line-height: 2rem;
   font-size: 1.5rem;
   text-align: left;
@@ -164,10 +167,127 @@
   text-decoration: none;
   color: #0f0f0f;
 }
+.thumbnails__proportions {
+  color: #808080;
+  font-size: 1.4rem;
+}
+.thumbnails__btn {
+  background: #e55417;
+  padding: 0.3rem 2rem;
+  color: #fff;
+  text-align: right;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.thumbnails__btn:link,
+.thumbnails__btn:active,
+.thumbnails__btn:hover,
+.thumbnails__btn:visited {
+  text-decoration: none;
+  color: #fff;
+}
+.about {
+  padding: 10rem 0;
+}
+.aboutDescription {
+  font-weight: 200;
+  background: #fff;
+  margin-left: -10rem;
+  margin-top: 5rem;
+  padding: 3rem 2rem 3rem 6rem;
+}
+.aboutDescription__link:link,
+.aboutDescription__link:active,
+.aboutDescription__link:hover,
+.aboutDescription__link:visited {
+  color: #0f0f0f;
+}
+.indent {
+  padding-top: 3rem;
+}
+.service {
+  padding: 14rem 0;
+}
+.service__item_border {
+  border-left: 1px solid #d3d3d3;
+  border-right: 1px solid #d3d3d3;
+}
+.serviceItem {
+  padding-left: 3.5rem;
+}
+.serviceItem__caption {
+  color: #808080;
+  font-weight: 700;
+  margin-bottom: 3.2rem;
+}
+.serviceItem__description {
+  font-size: 1.5rem;
+  line-height: 2.3rem;
+}
+.footer {
+  background: #323d43;
+  color: #fff;
+  padding: 4rem 0;
+  position: relative;
+}
+.footerEmail {
+  float: left;
+  position: relative;
+}
+.footerEmail__mail {
+  padding-left: 7rem;
+  display: inline-block;
+  font-size: 2rem;
+  position: absolute;
+  top: 4.5rem;
+}
+.footerEmail__image {
+  height: 1.5rem;
+  width: 3rem;
+  background: #fff;
+  display: inline-block;
+  position: absolute;
+  left: 1.5rem;
+  top: 5.3rem;
+}
+.footerCall {
+  float: left;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+  display: inline-block;
+  padding: 2rem 10rem;
+  position: relative;
+}
+.footerCall__phone {
+  line-height: 1.9rem;
+  font-size: 2rem;
+}
+.footerCall__image {
+  display: inline-block;
+  height: 1.5rem;
+  width: 3rem;
+  background: #fff;
+  position: absolute;
+  left: 4.5rem;
+  top: 5rem;
+}
+.footerLogo {
+  float: left;
+  padding: 0 3rem;
+  display: inline-block;
+}
+.footerLogo__logo {
+  padding-bottom: 2rem;
+}
+.footerLogo__description {
+  line-height: 0.5rem;
+  font-size: 1.4rem;
+}
 body {
   background-color: #f9fafb;
   font-size: 16px;
   margin: 0;
-  font-family: 'Fira Sans', 'sans-serif';
+  font-family: 'Fira Sans', sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
